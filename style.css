@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body {
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #ffa09b 0,
+    #ff939d 12.5%,
+    #ff879c 25%,
+    #f57a97 37.5%,
+    #d86c8f 50%,
+    #bb5f85 62.5%,
+    #a1557c 75%,
+    #8a4c73 87.5%,
+    #77456b 100%
+  );
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  background: #fff0f5;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 8px 16px;
+  background: #fff0f5;
+  border-radius: 100px;
+  border: 1px solid #0e1d2f;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(
+    circle at 50% -20.71%,
+    #ffe1de 0,
+    #ffd9d9 10%,
+    #fed1d4 20%,
+    #fbc8cf 30%,
+    #f7bfcb 40%,
+    #f2b5c8 50%,
+    #ecabc6 60%,
+    #e5a3c5 70%,
+    #de9bc5 80%,
+    #d595c6 90%,
+    #cc90c8 100%
+  );
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f7f7f7;
+}
+
+.dark .projetos {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
